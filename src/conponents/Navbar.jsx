@@ -18,11 +18,7 @@ function Navbar() {
       <div className="fixed top-0 min-[973px]:left-[75px] left-0 right-0 backdrop-blur">
         <div className="min-[973px]:hidden pt-4 px-7 flex items-center justify-between">
           <div className="flex items-center gap-1">
-            <img
-              src="/public/img/unsplashLogo.svg"
-              width={"24px"}
-              alt="unsplashLogo"
-            />
+            <img src="/unsplashLogo.svg" width={"24px"} alt="unsplashLogo" />
             <div className="dropdown">
               <div
                 tabIndex={0}

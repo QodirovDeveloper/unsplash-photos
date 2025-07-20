@@ -15,7 +15,7 @@ function Home() {
           <figure>
             <img
               className="max-w-[400px] rounded-r-xl max-[1293px]:hidden"
-              src="/public/img/hero.avif"
+              src="/hero.avif"
               alt="Album"
             />
           </figure>
@@ -31,7 +31,7 @@ function Home() {
 
           <div className="flex items-center gap-3">
             <img
-              src="/public/img/hero.avif"
+              src="/hero.avif"
               alt="Summer"
               className="w-10 h-10 rounded-md object-cover"
             />
@@ -43,7 +43,7 @@ function Home() {
 
           <div className="flex items-center gap-3">
             <img
-              src="/public/img/hero.avif"
+              src="/hero.avif"
               alt="How its Made"
               className="w-10 h-10 rounded-md object-cover"
             />
@@ -55,7 +55,7 @@ function Home() {
 
           <div className="flex items-center gap-3">
             <img
-              src="/public/img/hero.avif"
+              src="/hero.avif"
               alt="Red, White and Blue"
               className="w-10 h-10 rounded-md object-cover"
             />
@@ -67,7 +67,7 @@ function Home() {
 
           <div className="flex items-center gap-3">
             <img
-              src="/public/img/hero.avif"
+              src="/hero.avif"
               alt="Summer Backgrounds"
               className="w-10 h-10 rounded-md object-cover"
             />
@@ -115,7 +115,7 @@ function Home() {
       <div className="container min-[775px]:pl-16 min-sm:mt-10 mt-48 pl-1 pr-1 mx-auto grid min-[991px]:grid-cols-3 max-[991px]:grid-cols-2 max-[767px]:grid-cols-1 gap-8">
         <div className="relative group w-full overflow-hidden rounded-lg shadow-md">
           <img
-            src="/public/img/hero.avif"
+            src="/hero.avif"
             alt="image"
             className="w-full h-full object-cover"
           />
