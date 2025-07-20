@@ -99,7 +99,7 @@ function Navbar({ onSearch }) {
       <div className="py-3 px-6 flex items-center gap-6">
         <Search onSearch={handleSearch} />
         <button className="btn cursor-pointer max-[973px]:hidden">Get Unsplash+</button>
-        <button className="btn btn-outline max-[973px]:hidden">Submit an image</button>
+        <button className="btn max-[973px]:hidden">Submit an image</button>
       </div>
 
       <div className="w-full overflow-x-auto whitespace-nowrap py-2 px-4 bg-base-100 shadow-md">

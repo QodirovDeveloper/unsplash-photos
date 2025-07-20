@@ -15,12 +15,12 @@ import ThemeMode from "./ThemeMode";
 function AsideLeft() {
   return (
     <>
-      <div className="max-[973px]:hidden z-9999 bg-base-100 fixed top-0 bottom-0 left-0 py-5 border border-black/20 px-2.5 flex flex-col items-center justify-between">
+      <div className="max-[973px]:hidden z-999999 bg-base-100 fixed top-0 bottom-0 left-0 py-5 border border-black/20 px-2.5 flex flex-col items-center justify-between">
         <div className="flex flex-col gap-5 items-center">
           <img src="/unsplashLogo.svg" width={"24px"} alt="" />
 
           <div
-            className="tooltip tooltip-right hover:tooltip-open"
+            className="tooltip tooltip-right hover:tooltip-open "
             data-tip="Photos"
           >
             <button className="btn btn-square text-2xl">
@@ -80,7 +80,7 @@ function AsideLeft() {
           </div>
         </div> */}
         <div className="flex flex-col items-center justify-center gap-5">
-        <ThemeMode />
+          <ThemeMode />
           <div className="dropdown dropdown-right  dropdown-end mb-1">
             <div tabIndex={0} role="button">
               <div
