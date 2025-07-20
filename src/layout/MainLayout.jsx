@@ -1,18 +1,15 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "../conponents/Navbar";
-import Footer from "../conponents/Footer";
-import AsideLeft from "../conponents/AsideLeft";
+import Navbar from "../components/Navbar";
+import AsideLeft from "../components/AsideLeft";
 
 function MainLayout() {
   return (
-    <div>
+    <div className="pt-[120px]">
       <Navbar />
       <AsideLeft />
-      <main>
+      <main className="p-4">
         <Outlet />
       </main>
-      <Footer />
     </div>
   );
 }

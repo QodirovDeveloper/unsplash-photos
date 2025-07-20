@@ -1,26 +1,22 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainLayout from "./layout/MainLayout";
+import { useState } from "react";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import AsideLeft from "./components/AsideLeft";
 
 function App() {
-  const routes = createBrowserRouter([
-    {
-      path: "/",
-      element: <MainLayout />,
-      children: [
-        {
-          index: true,
-          element: <Home />,
-        },
-        {
-          path: "/about",
-          element: <About />,
-        },
-      ],
-    },
-  ]);
-  return <RouterProvider router={routes} />;
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
+
+  return (
+    <>
+      <AsideLeft />
+      <Navbar onSearch={handleSearch} />
+      <Home searchQuery={searchQuery} />
+    </>
+  );
 }
 
 export default App;
