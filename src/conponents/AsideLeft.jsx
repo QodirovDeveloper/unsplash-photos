@@ -17,7 +17,7 @@ function AsideLeft() {
     <>
       <div className="max-[973px]:hidden fixed top-0 bottom-0 left-0 py-5 border border-black/20 px-2.5 flex flex-col items-center justify-between">
         <div className="flex flex-col gap-5 items-center">
-          <img src="/public/img/unsplashLogo.svg" width={"24px"} alt="" />
+          <img src="/unsplashLogo.svg" width={"24px"} alt="" />
 
           <div
             className="tooltip tooltip-right hover:tooltip-open"
