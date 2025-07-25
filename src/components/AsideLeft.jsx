@@ -11,13 +11,16 @@ import {
 } from "react-icons/md";
 import { SlMenu } from "react-icons/sl";
 import ThemeMode from "./ThemeMode";
+import { SiUnsplash } from "react-icons/si";
 
 function AsideLeft() {
   return (
     <>
       <div className="max-[973px]:hidden z-999999 bg-base-100 fixed top-0 bottom-0 left-0 py-5 border border-black/20 px-2.5 flex flex-col items-center justify-between">
         <div className="flex flex-col gap-5 items-center">
-          <img src="/unsplashLogo.svg" width={"24px"} alt="" />
+          <span className="text-2xl">
+            <SiUnsplash />
+          </span>
 
           <div
             className="tooltip tooltip-right hover:tooltip-open "
